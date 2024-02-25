@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h2>Select by tag from Id</h2>
+     <input placeholder="Enter id"> <br> <br>
+     <div id="mydiv">
+     <input placeholder="Enter name"><br> <br>
+     <input placeholder="Enter mobile"><br> <br>
+     <input placeholder="Enter age"><br> <br>
+
+     <button onclick="check()">Submit</button>
+     <p></p>
+     <p></p>
+     <p></p>
+    </div>
+        <!-- JavaScript-->
+        <script>
+            function check()
+            {
+                 area=document.getElementById("mydiv");
+                 box=area.getElementsByTagName("input");
+                 data=document.getElementsByTagName("p");
+              
+                 //  data[0].innerHTML=box[0].value;
+                //  data[1].innerHTML=box[1].value;
+                //  data[2].innerHTML=box[2].value;
+
+   // for loop
+         for(i=0;i<box.length;i++)
+         {
+            data[i].innerHTML=box[i].value;
+            console.log(i);
+         }
+
+
+            }
+        </script>
+</body>
+</html>
