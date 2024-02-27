@@ -1,0 +1,24 @@
+/* input{ width: 50%; height: 40px; color:red;font-size: 18px;}
+h2{color: red;}
+p{color: blue; font-size: 18px;}
+button{width: 52%; height: 40px; font-size: 18px; background-color:blue;color:white;}
+
+.myclass{color:brown;background-color: grey; width: 100px;}
+ */
+
+ h1{
+    color: green;
+ }
+ #p1{
+    width: 16%;
+    background-color: yellow;
+    padding: 15px;
+    font-size: 20px;
+ }
+.btn{
+    width: 20%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}

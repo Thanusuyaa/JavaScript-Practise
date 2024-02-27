@@ -4,41 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    <h2>Select by tag from Id</h2>
-     <input placeholder="Enter id"> <br> <br>
-     <div id="mydiv">
-     <input placeholder="Enter name"><br> <br>
-     <input placeholder="Enter mobile"><br> <br>
-     <input placeholder="Enter age"><br> <br>
+    <!-- 1) Selecting by tag from Id -->
+        <!-- <h2>Select by tag from Id</h2>
+        <input placeholder="Enter id"> <br> <br>
+        <div id="mydiv">
+        <input placeholder="Enter name"><br> <br>
+        <input placeholder="Enter mobile"><br> <br>
+        <input placeholder="Enter age"><br> <br>
 
-     <button onclick="check()">Submit</button>
-     <p></p>
-     <p></p>
-     <p></p>
+        <button onclick="check()">Submit</button>
+        <p></p>
+        <p></p>
+        <p></p>
+        </div> -->
+
+    <!-- 2)DOM select by ID -->
+       <!-- <h2> Select by ID</h2>
+       <input id="from" placeholder="Enter Place"> <br>  <br>
+       <button onclick="check()">Submit</button>
+       <p id="to"></p> -->
+
+    <!-- 3) Javascript DOM select by tag name -->
+        <!-- <h1 style="color: blue;"> Select by Tag Name</h1>
+          <input placeholder="Enter First Name"> <br> <br>
+          <input placeholder="Enter Last Name"> <br> <br>
+          <input placeholder="Enter Country Name"> <br> <br>
+          <button onclick="check()">Submit</button>
+          <p> </p>
+          <p> </p>
+          <p> </p> -->
+    <!-- 4) Setting date and time -->
+    <div="mydiv">
+         <h1> Javascript Date and Time</h1>
+         <p id="p1"></p>
+         <button class="btn" onclick="start()">Start</button> 
+         <button class="btn" onclick="stop()">Stop</button>
     </div>
-        <!-- JavaScript-->
-        <script>
-            function check()
-            {
-                 area=document.getElementById("mydiv");
-                 box=area.getElementsByTagName("input");
-                 data=document.getElementsByTagName("p");
-              
-                 //  data[0].innerHTML=box[0].value;
-                //  data[1].innerHTML=box[1].value;
-                //  data[2].innerHTML=box[2].value;
-
-   // for loop
-         for(i=0;i<box.length;i++)
-         {
-            data[i].innerHTML=box[i].value;
-            console.log(i);
-         }
 
 
-            }
-        </script>
+
+
+
+
+
+
+
+
+    <!-- 5) Changing html by using JS -->
+    <!-- <h2> Changing html by using JS DOM CSS</h2>
+    <div id="mydiv">
+        <input placeholder="Enter Name"> <br> <br>
+        <input placeholder="Enter Mobile"> <br> <br>
+        <input placeholder="Enter Age"> <br> <br>
+       
+        <button onclick="check()"> Submit</button>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div> -->
+
 </body>
 </html>
