@@ -51,8 +51,12 @@ function changecolor(){
     else
     {x.style.color="blue";}
 } //changecolor
-
-setInterval(changecolor,1000);
+function start(){
+clear=setInterval(changecolor,1000);
+}
+function stop(){
+clearInterval(clear);
+}
 
 
 
