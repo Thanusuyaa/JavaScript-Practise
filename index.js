@@ -17,7 +17,7 @@
 //          }
 //           }
 
-// function check(){
+//2)  function check(){
 //     box=document.getElementById("from").value;
 //     document.getElementById("to").innerHTML=box;
 
@@ -37,28 +37,66 @@
     //     console.log(i);
     // }
     // }
-function changecolor(){
-    date=new Date();
-    hour=date.getHours();
-    minute=date.getMinutes();
-    second=date.getSeconds();
-    timing=date.toLocaleTimeString();
-    x=document.getElementById("p1");
-    x.innerHTML=timing;
+// 4) Setting date and time
+// function changecolor(){
+//     date=new Date();
+//     hour=date.getHours();
+//     minute=date.getMinutes();
+//     second=date.getSeconds();
+//     timing=date.toLocaleTimeString();
+//     x=document.getElementById("p1");
+//     x.innerHTML=timing;
 
-    if(second%2==0)
-    {x.style.color="red";}
-    else
-    {x.style.color="blue";}
-} //changecolor
-function start(){
-clear=setInterval(changecolor,1000);
-}
-function stop(){
-clearInterval(clear);
-}
+//     if(second%2==0)
+//     {x.style.color="red";}
+//     else
+//     {x.style.color="blue";}
+// } //changecolor
+// function start(){
+// clear=setInterval(changecolor,1000);
+// }
+// function stop(){
+// clearInterval(clear);
+// }
+
+// 5) creating new HTML Element
+// function create(){
+//     value=document.getElementById("myinput").value;
+//     element=document.createElement("p");
+//     text=document.createTextNode(value);
+//     element.appendChild(text);
+//     mydiv=document.getElementById("mydiv");
+//     mydiv.appendChild(element);
+// }
 
 
+// <!-- 6) Chat app -->
+ function sendsms()
+ { 
+    value1=document.getElementById("i1").value;
+    value2=document.getElementById("i2").value;
+    element=document.createElement("li");
+
+    if(value1 !="")
+    {
+        text1=document.createTextNode(value1);
+        element.appendChild(text1);
+        mydiv=document.getElementById("mydiv");
+        mydiv.appendChild(element);
+        element.style.color="#FDB7B9";
+        document.getElementById("i1").value="";
+    }
+    else if(value2 !="")
+    {
+        text2=document.createTextNode(value2);
+        element.appendChild(text2);
+        mydiv=document.getElementById("mydiv");
+        mydiv.appendChild(element);
+        element.style.color="#d8f3e9";
+        document.getElementById("i2").value="";
+    }
+
+ }
 
 
 

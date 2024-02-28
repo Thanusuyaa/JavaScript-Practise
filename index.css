@@ -1,12 +1,14 @@
-/* input{ width: 50%; height: 40px; color:red;font-size: 18px;}
-h2{color: red;}
+/* 1) input{ width: 50%; height: 40px; color:red;font-size: 18px;} 
+ h2{color: red;}
 p{color: blue; font-size: 18px;}
 button{width: 52%; height: 40px; font-size: 18px; background-color:blue;color:white;}
 
 .myclass{color:brown;background-color: grey; width: 100px;}
- */
+ */ 
 
- h1{
+
+ /* Setting date and time */
+ /* h1{
     color: green;
  }
  #p1{
@@ -21,4 +23,61 @@ button{width: 52%; height: 40px; font-size: 18px; background-color:blue;color:wh
     background-color: blue;
     color: white;
     font-size: 20px;
+} */
+
+
+/* Creating new HTML element */
+/* *{box-sizing: border-box;}
+h2{color:#0005e6; font-size: 35px;}
+button{width: 50%; height: 40px; font-size: 24px; background-color: blue;color: white;}
+#mydiv{width: 50%;height: 200px;border: 1px solid blue; background-color: #F9F29A;}
+p{color: blue; font-size: 22px; font-weight: bold;}
+input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9AF9B0;} */
+
+/* <!-- 6) Chat app --> */
+
+.row{
+   display: flex;
+}
+.box1 {
+   width: 35%;
+   background-color: #FDB7B9;
+   height: 500px;
+}
+.pic{
+   width: 60%;
+   margin-left: 80px;
+}
+.mydiv {
+   width: 35%;
+   background-color:#FFBE98;
+   height: 500px;
+   color: white;
+}
+.box3 {
+   width: 35%;
+   background-color: #d8f3e9;
+   height: 500px;
+}
+.row h2{
+   text-align: center;
+   color: black;
+}
+#i1{
+   width: 58%;
+   margin-left: 80px;
+   padding: 5px;
+}
+#i2{
+   width: 58%;
+   margin-left: 80px;
+   padding: 5px;
+}
+.btn{
+   width: 28%;
+   margin-left: 150px;
+   padding: 5px;
+   background-color: green;
+   color: white;
+   border-radius: 50px;
 }
