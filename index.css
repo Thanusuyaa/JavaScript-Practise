@@ -91,7 +91,7 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
 } */
 
 /* 7) Calculator */
-.cal{
+/* .cal{
    background-color: rgb(73, 73, 140);
    width: 22%;
    height:300px;
@@ -114,4 +114,26 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
    margin-top: 10px;
    font-size: 9px;
    height:40px;
+} */
+
+/* 8) Image slider */
+
+/* h2{
+   margin-left: 35px;
+   background-color: black;
+   color: red;
+   border-radius: 5%;
+   width:20%;
 }
+#images{
+   width: 25%;
+   height: 350px;
+}
+.btn{
+   width: 40px;
+   margin-left: 80px;
+   padding: 6px;
+   background-color: blue;
+   color: white;
+   border-radius: 50px;
+} */
