@@ -52,25 +52,60 @@
     </div> -->
 
     <!-- 6) Chat app -->
-<div class="row">
+<!-- <div class="row">
     <div class="box1">
         <h2>Agasthya</h2>
         <img class="pic" src="img/Agasthiya.jpeg" alt=""><br><br>
-        <input id="i1" type="text"><br><br>
-        <button class="btn" onClick="sendsms()">Send</button>
+        <input type="text" id="i1" placeholder="Enter message" ><br><br>
+        <button id="btn1" onclick="sendsms()">Send</button>
     </div>
     <div class="mydiv">
-        
     </div>
-    <div class="box3">
+    <div class="box2">
         <h2>Aadhini</h2>
         <img class="pic" src="img/Aadhini.jpeg" alt=""><br><br>
-        <input id="i2" type="text"><br><br>
-        <button class="btn"  onClick="sendsms()">Send</button>
+        <input type="text" id="i2" placeholder="Enter message"><br><br>
+        <button id="btn2" onclick="sendsms()">Send</button>
     </div>
+</div> -->
+
+<!-- 7) Calculator -->
+<h2>Javascript calculator</h2>
+<div class="cal">
+<table>
+    <tr>
+        <td colspan="5"><input id="input1"></td>
+    </tr>
+    <tr>
+        <td><button id="btn" onclick="send(1)">1</button></td>
+        <td><button id="btn" onclick="send(2)">2</button></td>
+        <td><button id="btn" onclick="send(3)">3</button></td>
+        <td><button id="btn" onclick="send(4)">4</button></td>
+        <td><button id="btn" onclick="send(5)">5</button></td>
+    </tr>
+    <tr>
+        <td><button id="btn" onclick="send(6)">6</button></td>
+        <td><button id="btn" onclick="send(7)">7</button></td>
+        <td><button id="btn" onclick="send(8)">8</button></td>
+        <td><button id="btn" onclick="send(9)">9</button></td>
+        <td><button id="btn" onclick="send(0)">0</button></td>
+    </tr>
+    <tr>
+        <td><button id="btn"  onclick="send('+')">+</button></td>
+        <td><button id="btn" onclick="send('-')">-</button></td>
+        <td><button id="btn" onclick="send('/')">/</button></td>
+        <td><button id="btn" onclick="send('*')">*</button></td>
+        <td><button id="btn" onclick="send('=')">=</button></td>
+    </tr>
+    <tr>
+        <td><button id="btn1" onclick="send('log')">log</button></td>
+        <td><button id="btn" onclick="send('√ ')"> </button></td>
+        <td><button id="btn" onclick="send('1/x')">1/x</button></td>
+        <td><button id="btn" onclick="send('.')">.</button></td>
+        <td><button id="btn" onclick="send('AC')">AC</button></td>
+    </tr>
+</table>
 </div>
-
-
 
 
 

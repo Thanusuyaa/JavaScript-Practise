@@ -36,7 +36,7 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
 
 /* <!-- 6) Chat app --> */
 
-.row{
+/* .row{
    display: flex;
 }
 .box1 {
@@ -54,7 +54,7 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
    height: 500px;
    color: white;
 }
-.box3 {
+.box2 {
    width: 35%;
    background-color: #d8f3e9;
    height: 500px;
@@ -73,11 +73,45 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
    margin-left: 80px;
    padding: 5px;
 }
-.btn{
+#btn1 {
    width: 28%;
    margin-left: 150px;
    padding: 5px;
    background-color: green;
    color: white;
    border-radius: 50px;
+}
+#btn2 {
+   width: 28%;
+   margin-left: 150px;
+   padding: 5px;
+   background-color: green;
+   color: white;
+   border-radius: 50px;
+} */
+
+/* 7) Calculator */
+.cal{
+   background-color: rgb(73, 73, 140);
+   width: 22%;
+   height:300px;
+}
+#input1{
+   border-radius: 5px;
+   width: 90%;
+   padding: 8px;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+#btn{
+   padding :10px;
+   margin-left: 18px;
+   margin-top: 10px;
+}
+#btn1{
+   padding :10px;
+   margin-left: 18px;
+   margin-top: 10px;
+   font-size: 9px;
+   height:40px;
 }
