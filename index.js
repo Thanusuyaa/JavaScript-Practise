@@ -95,7 +95,6 @@
 //         element.style.color="red";
 //         document.getElementById("i2").value="";
 //     }
- 
 //  }
 
 // 7) Calculator
@@ -182,7 +181,24 @@
 //    console.log(count);
 //  }
 
-
+// 9) Refresh,Auto refresh and Redirecting page
+function refresh()
+{
+//    time=document.getElementById("i1").value;  refresh
+//    time=parseInt(time);  refresh
+   time=3;
+   setTimeout("location.reload.(true)",time*1000);
+   console.log(window.location.href);
+//    if(setTimeout("location.reload(true)",time*1000))  // refresh, autorefresh
+   if(setTimeout("location.assign(https://www.amizhth.com/)",time*1000))
+   // redirecting the page using href
+   {
+    // document.getElementById("h2").style.color="blue";   
+    //  refresh changing the h2 title color
+    document.getElementById("b1").style.backgroundColor="red";
+   }
+}
+setInterval(refresh,3000);
 
 
 

@@ -39,7 +39,7 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
 /* .row{
    display: flex;
 }
-.box1 {
+#box1 {
    width: 35%;
    background-color: #FDB7B9;
    height: 500px;
@@ -48,13 +48,13 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
    width: 60%;
    margin-left: 80px;
 }
-.mydiv {
+#mydiv {
    width: 35%;
    background-color:#FFBE98;
    height: 500px;
    color: white;
 }
-.box2 {
+#box2 {
    width: 35%;
    background-color: #d8f3e9;
    height: 500px;
@@ -137,3 +137,24 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
    color: white;
    border-radius: 50px;
 } */
+
+/* 9) Refresh,Auto refresh and Redirecting page*/
+#b1{
+   background-color: yellow;
+   height: 580px;
+}
+.div h2{
+   margin-left: 100px;
+}
+#i1{
+   width: 15%;
+   padding: 10px;
+   margin-left: 30px;
+}
+#btn{
+   width: 10%;
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+   margin-left: 70px;
+}
