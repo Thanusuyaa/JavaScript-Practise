@@ -182,27 +182,79 @@
 //  }
 
 // 9) Refresh,Auto refresh and Redirecting page
-function refresh()
+// function refresh()
+// {
+// //    time=document.getElementById("i1").value;  refresh
+// //    time=parseInt(time);  refresh
+//    time=3;
+//    setTimeout("location.reload.(true)",time*1000);
+//    console.log(window.location.href);
+// //    if(setTimeout("location.reload(true)",time*1000))  // refresh, autorefresh
+//    if(setTimeout("location.assign(https://www.amizhth.com/)",time*1000))
+//    // redirecting the page using href
+//    {
+//     // document.getElementById("h2").style.color="blue";   
+//     //  refresh changing the h2 title color
+//     document.getElementById("b1").style.backgroundColor="red";
+//    }
+// }
+// setInterval(refresh,3000);
+
+
+// alert box
+// function check()
+// {
+//      alert("Don't visit this page")
+// }
+
+// confirm box 
+// function check()
+// {
+//     if(confirm("Sure to proceed"))
+//     {
+//         document.getElementById("p1").innerHTML="Thank You!!!"
+//     }
+//     else
+//     {
+//         document.getElementById("p1").innerHTML="Oh Sorry!!!"
+//     }
+//     }
+
+// prompt
+//  function check()
+//  {
+//     password=prompt("Please enter password","");
+//     if(password==1234)
+//     {
+//         document.getElementById("p1").innerHTML="Thank You!!!"
+//         // document.getElementById("p1").style.backgroundColor="red";
+//     }
+//     else
+//     {
+//         document.getElementById("p1").innerHTML="Oh Sorry!!!"
+//         // document.getElementById("p1").style.backgroundColor="blue";
+//     }
+//  }
+
+// Automatic image slide show
+x=["img/h1.jpg","img/h2.jpg","img/h3.jpg","img/h4.jpg","img/h5.jpg"];
+slide=document.getElementById("pic");
+count=0;
+
+function forward()
 {
-//    time=document.getElementById("i1").value;  refresh
-//    time=parseInt(time);  refresh
-   time=3;
-   setTimeout("location.reload.(true)",time*1000);
-   console.log(window.location.href);
-//    if(setTimeout("location.reload(true)",time*1000))  // refresh, autorefresh
-   if(setTimeout("location.assign(https://www.amizhth.com/)",time*1000))
-   // redirecting the page using href
-   {
-    // document.getElementById("h2").style.color="blue";   
-    //  refresh changing the h2 title color
-    document.getElementById("b1").style.backgroundColor="red";
-   }
+    count=count+1;
+    if(count<=x.length)
+    {
+       if(count==x.length)
+    {
+        count=0;
+    }
+    slide.src=x[count];
 }
-setInterval(refresh,3000);
-
-
-
-
+console.log(count);
+}
+setInterval(forward,2000);
 
 
 

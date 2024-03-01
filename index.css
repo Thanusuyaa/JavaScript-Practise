@@ -139,7 +139,7 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
 } */
 
 /* 9) Refresh,Auto refresh and Redirecting page*/
-#b1{
+/* #b1{
    background-color: yellow;
    height: 580px;
 }
@@ -156,5 +156,32 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
    background-color: green;
    color: white;
    border-radius: 10px;
-   margin-left: 70px;
+   /* margin-left: 70px; */
+
+   /* } */ 
+
+/* h2{
+   color: red;
+}
+#btn{
+   color: white;
+   background-color: green;
+   margin-left: 130px;
+   width: 70px;
+   border-radius: 5px;
+   padding: 5px;
+
+} */
+
+/* Automatic image slide show */
+h2{
+   color: goldenrod;
+   margin-left: 60px;
+}
+.mydiv{
+   background-color: bisque;
+   height: 600px;
+}
+#pic{
+   width: 30%;
 }
