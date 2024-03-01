@@ -237,26 +237,44 @@
 //  }
 
 // Automatic image slide show
-x=["img/h1.jpg","img/h2.jpg","img/h3.jpg","img/h4.jpg","img/h5.jpg"];
-slide=document.getElementById("pic");
-count=0;
+// x=["img/h3.jpg","img/s2.jpeg","img/h1.jpg","img/s1.jpeg","img/h5.jpg","img/s3.jpeg","img/h4.jpg","img/s4.jpeg","img/h2.jpg","img/s5.jpeg"];
+// slide=document.getElementById("pic");
+// count=0;
 
-function forward()
-{
-    count=count+1;
-    if(count<=x.length)
+// function forward()
+// {
+//     count=count+1;
+//     if(count<=x.length)
+//     {
+//        if(count==x.length)
+//     {
+//         count=0;
+//     }
+//     slide.src=x[count];
+// }
+// console.log(count);
+// }
+// setInterval(forward,2000);
+
+
+    // Adding and removing class
+ x=document.getElementsByTagName("input");
+ y=document.getElementsByTagName("p");
+ function onMouseover(i)
+ {
+    if(x[i].value=="")
     {
-       if(count==x.length)
-    {
-        count=0;
+        y[i].innerHTML="Please fill this field";
+        y[i].className="show";
+    }    
     }
-    slide.src=x[count];
-}
-console.log(count);
-}
-setInterval(forward,2000);
-
-
+ {
+    function onMouseout(i)
+    {
+        y[i].innerHTML="";
+        y[i].classList.remove("show"); 
+    }
+ }
 
 
 
