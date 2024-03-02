@@ -185,3 +185,24 @@ input{width: 50%; height: 40px; color:red;font-size: 18px; background-color: #9A
 #pic{
    width: 30%;
 } */
+
+/* 13) Form validation */
+.n1{
+   width: 30%;
+   margin-left: 15px;
+}
+#name{
+   width: 30%;
+}
+#mobile{
+   width: 30%;
+   margin-left: 5px;
+}
+#signup{
+   width: 10%;
+   margin-left: 190px;
+   padding: 5px;
+   background-color: blue;
+   color: white;
+   border-radius: 5px;
+}

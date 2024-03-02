@@ -258,23 +258,39 @@
 
 
     // Adding and removing class
- x=document.getElementsByTagName("input");
- y=document.getElementsByTagName("p");
- function onMouseover(i)
- {
-    if(x[i].value=="")
+//  x=document.getElementsByTagName("input");
+//  y=document.getElementsByTagName("p");
+//  function onMouseover(i)
+//  {
+//     if(x[i].value=="")
+//     {
+//         y[i].innerHTML="Please fill this field";
+//         y[i].className="show";
+//     }    
+//     }
+//  {
+//     function onMouseout(i)
+//     {
+//         y[i].innerHTML="";
+//         y[i].classList.remove("show"); 
+//     }
+//  }
+
+// 13) Form validation
+function check()
+{
+    name=document.getElementById("name").value;
+    mobile=document.getElementById("mobile").value;
+    if(name=="")
     {
-        y[i].innerHTML="Please fill this field";
-        y[i].className="show";
-    }    
+        alert("Please fill the name");
+        return false;
     }
- {
-    function onMouseout(i)
+    else if(mobile=="")
     {
-        y[i].innerHTML="";
-        y[i].classList.remove("show"); 
+        alert("Please fill the mobile")
     }
- }
+}
 
 
 
