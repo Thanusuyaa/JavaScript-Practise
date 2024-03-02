@@ -340,7 +340,18 @@ if(!email.test(x[2].value))
     return false;
 }
 // --------------------------Email---------------
-
+// ------------------------password---------------
+ password=/^((?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).{6,})+$/
+ if(x[3].value=="")
+ {
+    alert("Please fill the password");
+    return false;
+ }
+ if(!pass.test(x[3].value))
+ {
+    alert("Use one small, caps, numbers, special characters");
+    return false;
+ }
 }
 
 
