@@ -277,22 +277,38 @@
 //  }
 
 // 13) Form validation
+// function check()
+// {
+//     name=document.getElementById("name").value;
+//     mobile=document.getElementById("mobile").value;
+//     if(name=="")
+//     {
+//         alert("Please fill the name");
+//         return false;
+//     }
+//     else if(mobile=="")
+//     {
+//         alert("Please fill the mobile")
+//     }
+// }
+
+
+// name validation
 function check()
 {
-    name=document.getElementById("name").value;
-    mobile=document.getElementById("mobile").value;
-    if(name=="")
+    x=document.getElementsByTagName("input");
+    alpha=/^[A-Za-z]+$/
+    if(x[0].value=="")
     {
         alert("Please fill the name");
         return false;
     }
-    else if(mobile=="")
+    if(!alpha.test(x[0].value))
     {
-        alert("Please fill the mobile")
+        alert("use only alphabets is name");
+        return false;
     }
 }
-
-
 
 
 
