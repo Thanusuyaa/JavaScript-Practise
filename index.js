@@ -296,8 +296,10 @@
 // name validation
 function check()
 {
+    // -----------------------letters-------------------
     x=document.getElementsByTagName("input");
     alpha=/^[A-Za-z]+$/
+    // pattern for alphabets only
     if(x[0].value=="")
     {
         alert("Please fill the name");
@@ -308,6 +310,37 @@ function check()
         alert("use only alphabets is name");
         return false;
     }
+    // ---------------------------letters---------
+
+    // -------------------------------numbers---------------
+     //pattern for numbers 
+     number=/^[0-9]{10}+$/ 
+     if(x[1].value=="")
+     {
+        alert("Please fill the mobile number");
+        return false;
+     }
+     if(!number.test(x[1].value))
+     {
+        alert("Use only 10 digit numbers");
+        return false;
+     }
+    //  ----------------------numbers----------------
+//    ------------------------ Email----------------
+email=/^([A-Za-z0-9_.])+\@+([a-z])+\.([a-z])+$/
+if(x[2].value==0)
+{
+    alert("Please fill the E-mail address");
+    return false;
+}
+
+if(!email.test(x[2].value))
+{
+    alert("Use the correct E-mail format  eg: .....@gmail.com");
+    return false;
+}
+// --------------------------Email---------------
+
 }
 
 
